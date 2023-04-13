@@ -2,9 +2,9 @@ name: Java CI with MAVEN
 
 on:
   push:
-    branches: [ anshit ]
+    branches: [ master ]
   pull_request:
-    branches: [ anshit ]
+    branches: [ master ]
 
 jobs:
   build-java:
